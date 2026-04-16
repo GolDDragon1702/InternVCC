@@ -34,11 +34,11 @@ Reduce manual data entry and improve accuracy in digitizing vehicle documents.
 ```mermaid id="8d9v4r"
 flowchart LR
     A[Input Image] --> B[Preprocessing]
-    B --> C[Text Detection (YOLO)]
+    B --> C[Text Detection]
     C --> D[Crop Text Regions]
-    D --> E[Text Recognition (OCR)]
+    D --> E[Text Recognition]
     E --> F[Post-processing]
-    F --> G[Structured Output (JSON)]
+    F --> G[Structured Output]
 ```
 
 ---
